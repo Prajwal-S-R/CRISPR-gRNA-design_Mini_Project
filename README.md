@@ -132,3 +132,5 @@ After adding feature, PAM and guide looks like this in the sequence map.
 For the second target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like this.
 ![alt text](image-36.png)
 In the above image, I have dsigned two guide sequences for cas9. In this way one can create guide RNA for CRISPR/Cas9. 
+
+<img width="544" height="544" alt="5935890673226073761_120" src="https://github.com/user-attachments/assets/ccc6fd64-3667-43bf-896b-89d9b8cf028c" />
