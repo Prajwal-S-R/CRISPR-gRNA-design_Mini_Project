@@ -55,7 +55,7 @@ Below is the steps followed for the guide RNA for Cas9 enzyme.
  >> - Then next to the target box there is 'In' box, type your selected organism name (*Streptococcus pyogenes*). For 'Using' box click on CRISPR/Cas9, then for last box ('For') select activation.
   <img width="1465" height="702" alt="image-11" src="https://github.com/user-attachments/assets/93d45f2f-2f6c-4dbf-9acb-bf94aba0926c" />
  >> - Now select the 'Options', 
-  in that select Cas9 and also check for PAM3' sequence as NGG or else and also the gRNA length of 20bp, 
+  in that select Cas9 and also check for PAM3 sequence as NGG and also the sgRNA length to 20bp, 
   apart from this leave other features as default. Finally click on Find Target Sites!
   <img width="1465" height="702" alt="image-12" src="https://github.com/user-attachments/assets/cd81e878-0dfb-4ec9-806f-4d8a0166f682" />
   <img width="803" height="890" alt="image-13" src="https://github.com/user-attachments/assets/b5b1aefd-5078-4da6-b8d3-332b1fb2f1a3" />
