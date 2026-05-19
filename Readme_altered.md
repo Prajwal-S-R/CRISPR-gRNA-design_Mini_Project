@@ -80,54 +80,53 @@ Below is the steps followed for the guide RNA for Cas9 enzyme.
 
  #### Step 4 : Analysing the result by filtering
  Paste the .tsv file by pressing Ctrl+V into one cell. Now click on first row and select Filter options in the 'Sort & filter' (Editing ribbon of Home tab).
- ![alt text](image-20.png)
+<img width="1917" height="630" alt="image-20" src="https://github.com/user-attachments/assets/2ed28c6f-1a3c-4610-8ff2-8e76f229c272" />
  Observe the tiny dropdown menu after the names of first row.
- ![alt text](image-21.png)
-
+ <img width="1917" height="542" alt="image-21" src="https://github.com/user-attachments/assets/a045b54e-f02e-4bda-a056-8bdf9d9ac68a" />
  Now click on the tiny dropdown, it will pop up certain tick box and there optimise the values. 
 - We usually set following parameters which has already been standardized by scientist and industrial peoples.
 >a) GC content = 40 - 60%
-![alt text](image-23.png)
+<img width="1090" height="732" alt="image-23" src="https://github.com/user-attachments/assets/bdedd53b-f229-4709-b469-b0d87a169ff1" />
 
  >b) Efficiency = >50 % 
  ![alt text](image-24.png)
 
 
 >c) Self-complementary = 0
-![alt text](image-25.png)
+<img width="1101" height="627" alt="image-25" src="https://github.com/user-attachments/assets/8e29292e-44bc-4335-b495-e835f9194fbb" />
 
 >d) Mismatches (MM0 = 1, MM1, MM2, MM3 = 0)
 
 After filtering above parameters, the result has only two target sequences -           TTGATTGAGCATGCAAACCCTGG and TTCAACGATTACAGAGGCAGTGG
 
-![alt text](image-26.png)
+<img width="1277" height="227" alt="image-26" src="https://github.com/user-attachments/assets/90ca0cec-faf4-46ef-b81d-4a6b9da77a20" />
 Now we have to copy the target sequence and find in the SnapGene viewer for the position and orientation. 
 
  #### Step 5 : Higlighting the Guide 
  I have copied the first target sequence (TTGATTGAGCATGCAAACCCTGG) from the above result excel sheet. Then go to SnapGene viewer software, press Ctrl+F --> opens dialogue box in the bottom of the page.
- ![alt text](image-27.png)
+ <img width="1707" height="947" alt="image-27" src="https://github.com/user-attachments/assets/9a56fc3e-9146-4da0-b7dd-6a5909efefd8" />
 
 Paste it here by pressing Ctrl+V. Then press next.
-![alt text](image-28.png)
+<img width="1917" height="318" alt="image-28" src="https://github.com/user-attachments/assets/87b37941-6d09-46b4-abcb-88c7919de3e5" />
 
 The software will locate your target sequence like this below as highlighted (green).
-![alt text](image-29.png)
+<img width="1812" height="922" alt="image-29" src="https://github.com/user-attachments/assets/dba10396-0c7f-4a00-b27f-365c2e01f306" />
 
 Observe keenly your PAM for Cas9 (NGG) in the target. Here PAM is 'TGG', to visualise differentiate it, add a feature named as PAM. For this select the PAM sequence and then go to Features --> Add feature 
-![alt text](image-31.png)
+<img width="1740" height="977" alt="image-31" src="https://github.com/user-attachments/assets/d4db7998-e32b-415f-a8a4-d5184bb9315d" />
 
 In feature, rename it to PAM and change the color, press ok.
-![alt text](image-32.png)
+<img width="1840" height="887" alt="image-32" src="https://github.com/user-attachments/assets/4a0dd592-55fd-487e-8e89-1eccbfb5a882" />
 It features like this
-![alt text](image-33.png)
+<img width="1702" height="472" alt="image-33" src="https://github.com/user-attachments/assets/e1675b6a-cc51-48c8-9162-b39e3df20a51" />
 
 Likewise, select the remaining 20bp in target and add feature as Guide_1_Cas9.
-![alt text](image-34.png)
+<img width="1822" height="967" alt="image-34" src="https://github.com/user-attachments/assets/d2e4975c-adf6-494a-80ad-dd4f43c4c591" />
 
 After adding feature, PAM and guide looks like this in the sequence map. 
-![alt text](image-35.png)
+<img width="1632" height="747" alt="image-35" src="https://github.com/user-attachments/assets/317742b4-dee7-45ce-b7fb-21ff6b2c94e5" />
 
 For the second target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like this.
-![alt text](image-36.png)
+<img width="1857" height="792" alt="image-36" src="https://github.com/user-attachments/assets/e74f357b-0ed5-47ca-900a-4bc8cca9b54f" />
 In the above image, I have dsigned two guide sequences for cas9. In this way one can create guide RNA for CRISPR/Cas9. 
 
