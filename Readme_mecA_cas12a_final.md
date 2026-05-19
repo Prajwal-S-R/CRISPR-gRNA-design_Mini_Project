@@ -89,5 +89,7 @@ Observe keenly your PAM for Cas12a (TTTN) in the target. Here PAM is **'TTTG'**,
 
 For the remaining target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like the below shown. 
 <img width="1860" height="794" alt="image" src="https://github.com/user-attachments/assets/a1d803e8-2149-42c0-8376-cd2f23b50e58" />
+In this guide design, I have chosen 3 sequences as guide among eight target sequences. In this I selected the guide based on the lesser homopolymer sequences. 
+In the above image, I have designed three guide sequences for cas12a (Check report folder for .dna file of this). In this way one can create guide RNA for CRISPR/Cas12a. Further one can check if the sequences are conserved or not by doing BLAST of the target sequence and finalise using tools like jalview, geneious prime.
 
 
