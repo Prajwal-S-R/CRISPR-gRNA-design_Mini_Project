@@ -56,7 +56,7 @@ Below is the steps followed for the guide RNA for Cas12a enzyme.
   <img width="1692" height="727" alt="image" src="https://github.com/user-attachments/assets/8cf21b7d-7d3c-4b6e-a053-68751996c4c4" />
 
  >> - Now select the 'Options', 
-  in that select Cpf1 and also check for 'PAM3' sequence as TTTN and also the sgRNA length to 20bp, 
+  in that select Cpf1 and also check for 'PAM' sequence as TTTN and also the sgRNA length to 20bp, 
   apart from this leave other features as default. Finally click on Find Target Sites!
   <img width="1538" height="912" alt="image" src="https://github.com/user-attachments/assets/4e6188e7-59dd-443c-a3b9-a547fc7a719e" />
   After this step, leave it to process and find your target.
