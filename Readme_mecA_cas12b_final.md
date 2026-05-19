@@ -47,10 +47,12 @@ This section contains the procedural step one should follow to design gRNA.
 #### Step 3 : Open CHOPCHOP in browser
 <img width="1467" height="712" alt="image-9" src="https://github.com/user-attachments/assets/91ad08f5-2ded-4131-bf6b-775c45132713" />
 Below is the steps followed for the guide RNA for Cas12b enzyme.
+
 > i) Loading the sequence to CHOPCHOP interface
 >> - After opening the CHOPCHOP, click on the menu 'paste target' which will changes to Gene target. 
   Now paste your copied sequence (from snapgene) into the 'target' box.
   <img width="1476" height="632" alt="image-10" src="https://github.com/user-attachments/assets/0007a3bf-bcb3-413e-9d5f-3f44b5364b03" />
+ 
  >> - Then next to the target box there is 'In' box, type your selected organism name ( *Streptococcus pyogenes* ). For 'Using' box click on CRISPR/Cpf1 or Cas12 or CasX, then for last box ('For') select knock-out.
   <img width="1692" height="727" alt="image" src="https://github.com/user-attachments/assets/8cf21b7d-7d3c-4b6e-a053-68751996c4c4" />
 
