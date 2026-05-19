@@ -56,27 +56,27 @@ Below is the steps followed for the guide RNA for Cas9 enzyme.
   Now paste your copied sequence (from snapgene) into the 'target' box.
   <img width="1476" height="632" alt="image-10" src="https://github.com/user-attachments/assets/0007a3bf-bcb3-413e-9d5f-3f44b5364b03" />
  >> - Then next to the target box there is 'In' box, type your selected organism name (*Streptococcus pyogenes*). For 'Using' box click on CRISPR/Cas9, then for last box ('For') select activation.
-  ![alt text](image-11.png)
+  <img width="1465" height="702" alt="image-11" src="https://github.com/user-attachments/assets/93d45f2f-2f6c-4dbf-9acb-bf94aba0926c" />
  >> - Now select the 'Options', 
   in that select Cas9 and also check for PAM3' sequence as NGG or else and also the gRNA length of 20bp, 
   apart from this leave other features as default. Finally click on Find Target Sites!
-  ![alt text](image-12.png)
-  ![alt text](image-13.png)
+  <img width="1465" height="702" alt="image-12" src="https://github.com/user-attachments/assets/cd81e878-0dfb-4ec9-806f-4d8a0166f682" />
+  <img width="803" height="890" alt="image-13" src="https://github.com/user-attachments/assets/b5b1aefd-5078-4da6-b8d3-332b1fb2f1a3" />
   After this step, leave it to process and find your target.
-  ![alt text](image-14.png)
+  <img width="1346" height="522" alt="image-14" src="https://github.com/user-attachments/assets/a3fcd2e0-16eb-4efa-8f69-f6a3fcab8073" />
  
  > Way : Browser -> CHOPCHOP -> Paste target -> Target (Paste your copied sequence) -> In -> Using -> For -> Options --> Find Target Sites!
 
  > ii) Loading the result table into Excel 
  >> The CHOPCHOP will gives many target sequences in the form of table having rank, genomic location, strand, GC content, efficiecny, self complementary,  mismatches (MM0, MM1, MM2, MM3) and a visual map at the top.
- ![alt text](image-16.png)
+<img width="1886" height="872" alt="image-16" src="https://github.com/user-attachments/assets/c6ef2ad5-55af-474a-b072-e0b02e3dd402" />
  Now you have to click on dropdown named as 'Please select one' (Download results). 
   In that opt for "Results table as .tsv" , it will downloads the result.
- ![alt text](image-15.png)
+<img width="1856" height="975" alt="image-15" src="https://github.com/user-attachments/assets/a8a65c51-cecf-4ac2-a698-c57747ca0554" />
  After downloading, right click on result file and select 'edit in notepad', copy the whole table content by pressing Ctrl+A --> Ctrl+C.
- ![Notepad view](image-17.png)
+<img width="1625" height="996" alt="image-17" src="https://github.com/user-attachments/assets/8513083f-e18f-46ff-9b3d-ba8dcd576d1a" />
  Paste it into a new microsoft Excel sheet.
- ![alt text](image-18.png)
+<img width="1236" height="777" alt="image-18" src="https://github.com/user-attachments/assets/6b35334f-c493-4ce1-bfc4-7476b2096ac8" />
 
  #### Step 4 : Analysing the result by filtering
  Paste the .tsv file by pressing Ctrl+V into one cell. Now click on first row and select Filter options in the 'Sort & filter' (Editing ribbon of Home tab).
