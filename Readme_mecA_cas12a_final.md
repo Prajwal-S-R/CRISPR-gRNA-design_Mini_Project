@@ -47,7 +47,7 @@ This section contains the procedural step one should follow to design gRNA.
 
 #### Step 3 : Open CHOPCHOP in browser
 <img width="1467" height="712" alt="image-9" src="https://github.com/user-attachments/assets/91ad08f5-2ded-4131-bf6b-775c45132713" />
-Below is the steps followed for the guide RNA for Cas9 enzyme.
+Below is the steps followed for the guide RNA for Cas12a enzyme.
 > i) Loading the sequence to CHOPCHOP interface
 >> - After opening the CHOPCHOP, click on the menu 'paste target' which will changes to Gene target. 
   Now paste your copied sequence (from snapgene) into the 'target' box.
@@ -59,7 +59,35 @@ Below is the steps followed for the guide RNA for Cas9 enzyme.
   in that select Cpf1 and also check for 'PAM3' sequence as TTTN and also the sgRNA length to 20bp, 
   apart from this leave other features as default. Finally click on Find Target Sites!
   <img width="1538" height="912" alt="image" src="https://github.com/user-attachments/assets/4e6188e7-59dd-443c-a3b9-a547fc7a719e" />
-
   After this step, leave it to process and find your target.
   <img width="1346" height="522" alt="image-14" src="https://github.com/user-attachments/assets/a3fcd2e0-16eb-4efa-8f69-f6a3fcab8073" />
- 
+
+ > ii) Loading the result table into Excel 
+ >> The CHOPCHOP will gives many target sequences in the form of table having rank, genomic location, strand, GC content, efficiecny, self complementary,  mismatches (MM0, MM1, MM2, MM3) and a visual map at the top. Now you have to click on dropdown named as 'Please select one' (Download results). In that opt for "Results table as .tsv" , it will downloads the result. After downloading, right click on result file and select 'edit in notepad', copy the whole table content by pressing Ctrl+A --> Ctrl+C. Paste it into a new microsoft Excel sheet.
+<img width="1236" height="777" alt="image-18" src="https://github.com/user-attachments/assets/6b35334f-c493-4ce1-bfc4-7476b2096ac8" />
+
+#### Step 4 : Analysing the result by filtering
+ Paste the .tsv file by pressing Ctrl+V into one cell. Now click on first row and select Filter options in the 'Sort & filter' (Editing ribbon of Home tab).
+<img width="1917" height="630" alt="image-20" src="https://github.com/user-attachments/assets/2ed28c6f-1a3c-4610-8ff2-8e76f229c272" />
+ Observe the tiny dropdown menu after the names of first row.
+ <img width="1917" height="542" alt="image-21" src="https://github.com/user-attachments/assets/a045b54e-f02e-4bda-a056-8bdf9d9ac68a" />
+ Now click on the tiny dropdown, it will pop up certain tick box and there optimise the values. 
+- We usually set following parameters which has already been standardized by scientist and industrial peoples.
+>a) GC content = 40 - 60%
+>b) Efficiency = >50 % 
+>c) Self-complementary = 0
+>d) Mismatches (MM0 = 1, MM1, MM2, MM3 = 0)
+<img width="1485" height="442" alt="image" src="https://github.com/user-attachments/assets/57c818f2-8fb0-4dd9-bea4-4457231c40f2" />
+
+#### Step 5 : Higlighting the Guide 
+Copy the individual sequence from the above result excel sheet (Here only check for homopolymers in seed region) and select it. Then go to SnapGene viewer software, press Ctrl+F --> opens dialogue box in the bottom of the page.
+Paste it here by pressing Ctrl+V. Then press next. The software will locate your target sequence like this below as highlighted (green).
+<img width="1780" height="850" alt="image" src="https://github.com/user-attachments/assets/6cf238fe-27b2-465e-8fc7-8dff97f136a6" />
+
+Observe keenly your PAM for Cas12a (TTTN) in the target. Here PAM is **'TTTG'**, to visualise differentiate it, add a feature named as PAM. For this select the PAM sequence and then go to Features --> Add feature --> rename it to PAM and change the color, press ok. Likewise also add feature for guide and finally it appears like this.
+<img width="1742" height="742" alt="image" src="https://github.com/user-attachments/assets/fb6255b5-5059-4bed-bf01-3b3d44bbb8d2" />
+
+For the remaining target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like the below shown. 
+<img width="1860" height="794" alt="image" src="https://github.com/user-attachments/assets/a1d803e8-2149-42c0-8376-cd2f23b50e58" />
+
+
