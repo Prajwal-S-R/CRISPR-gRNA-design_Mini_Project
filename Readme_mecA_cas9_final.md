@@ -48,12 +48,15 @@ This section contains the procedural step one should follow to design gRNA.
 #### Step 3 : Open CHOPCHOP in browser
 <img width="1467" height="712" alt="image-9" src="https://github.com/user-attachments/assets/91ad08f5-2ded-4131-bf6b-775c45132713" />
 Below is the steps followed for the guide RNA for Cas9 enzyme.
+
 > i) Loading the sequence to CHOPCHOP interface
 >> - After opening the CHOPCHOP, click on the menu 'paste target' which will changes to Gene target. 
   Now paste your copied sequence (from snapgene) into the 'target' box.
   <img width="1476" height="632" alt="image-10" src="https://github.com/user-attachments/assets/0007a3bf-bcb3-413e-9d5f-3f44b5364b03" />
+
  >> - Then next to the target box there is 'In' box, type your selected organism name (*Streptococcus pyogenes*). For 'Using' box click on CRISPR/Cas9, then for last box ('For') select activation.
   <img width="1465" height="702" alt="image-11" src="https://github.com/user-attachments/assets/93d45f2f-2f6c-4dbf-9acb-bf94aba0926c" />
+
  >> - Now select the 'Options', 
   in that select Cas9 and also check for PAM3 sequence as NGG and also the sgRNA length to 20bp, 
   apart from this leave other features as default. Finally click on Find Target Sites!
