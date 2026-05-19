@@ -84,7 +84,7 @@ Copy the individual sequence from the above result excel sheet (Here only check 
 Paste it here by pressing Ctrl+V. Then press next. The software will locate your target sequence like this below as highlighted (green).
 <img width="1780" height="850" alt="image" src="https://github.com/user-attachments/assets/6cf238fe-27b2-465e-8fc7-8dff97f136a6" />
 
-Observe keenly your PAM for Cas12a (TTTN) in the target. Here PAM is **'TTTG'**, to visualise differentiate it, add a feature named as PAM. For this select the PAM sequence and then go to Features --> Add feature --> rename it to PAM and change the color, press ok. Likewise also add feature for guide and finally it appears like this.
+Observe keenly your PAM for Cas12a (5′-TTTN-3′) in the target. Here PAM is **'TTTG'**, to visualise differentiate it, add a feature named as PAM. For this select the PAM sequence and then go to Features --> Add feature --> rename it to PAM and change the color, press ok. Likewise also add feature for guide and finally it appears like this.
 <img width="1742" height="742" alt="image" src="https://github.com/user-attachments/assets/fb6255b5-5059-4bed-bf01-3b3d44bbb8d2" />
 
 For the remaining target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like the below shown. 
