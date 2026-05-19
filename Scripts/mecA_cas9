@@ -1,1 +1,62 @@
+This is the procedural script for  mini project on topic : 'CRISPR guide RNA design'
 
+Step 1 : Selecting the suitable gene from NCBI database
+- I have chosen the AMR gene mecA, which is responsible for the methicillin resistance. 
+- I selected mecA from Streptococcus pyogenes with Gene ID: 69900206
+- Download the Gene sequence in FASTA format by selecting the menu download datasets and 
+  mark the Gene sequence (FASTA), then download the file named mecA_datasets.zip.
+- Extract the file and rename the gene as mecA_gene.
+
+Step 2 : Loading the mecA_gene to preinstalled SnapGene Viewer software
+- If you are unable to directly load into snapgene. 
+- Do this instead. Right click on the file mecA_gene, select edit in notepad option and then copy it and 
+  paste in the create the DNA sequence box 
+  (Prior to that in snapgene click on file --> Create new DNA file --> Creating the following sequence)
+- It will show a DNA map in linear or circular format based on your selected option. 
+- Now in the bottom there are many options like map, sequence, enzyme and so on. In that opt for 'Sequence', 
+  select the gene sequences (ATGC....) by draging your mouse. 
+
+Step 3 : Open CHOPCHOP in browser
+(i) Loading the sequence to CHOPCHOP interface
+- After opening the CHOPCHOP, click on the menu paste target which will changes to Gene target. 
+  Now paste your copied sequence (from snapgene) into the 'target' box. 
+- Then next to the target box there is 'In' box, type your selected organism name (Streptococcus pyogenes). 
+  For 'Using' box click on CRISPR/Cas9, then for last box ('for') select activation. Now select the 'Options', 
+  in that select Cas9 and also check for PAM3' sequence as NGG or else and also the gRNA length of 20bp, 
+  apart from this leave other features as default. Finally click on Find Target Sites!
+  After awhile it will give results. 
+- Roadmap : 
+  Browser -> CHOPCHOP -> Paste -> target -> Target -> In -> Using -> For -> Options --> Find Target Sites!
+
+(ii) Analysing the Result
+- The CHOPCHOP will gives many target sequences in the form of table having rank, genomic location, strand, 
+  GC content, efficiecny, self complementary,  mismatches (MM0, MM1, MM2) and a visual map at the top. 
+- Now you have to click on dropdown named as 'Please select one' (Download results). 
+  In that opt for "Results table as .tsv" , it will downloads the result. 
+- After downloading, right click on result file and select edit in notepad, 
+  copy the whole table content (Ctrl+A)and paste it to new excel sheet.
+
+Step 4 : Filtering in Excel
+- After pasting the tsv file into the excel. Expand the sequence column, so that complete nucleotides 
+  are visible and feasible for further work.
+- Select the first row (i.e., Headings), then click on Home tab and 
+  in editing ribbon select Sort & Filter, click 'filter'
+- Now click on the small dropdown seeing on rightside of each of the column heading and optimise the values. 
+- We usually set following parameters which has already been standardized by scientist and industrial peoples.
+  a) Efficiency - >50 % 
+  b) Self complementary - 0
+  c) GC content - 40 - 60%
+  d) Mismatches
+- After doing this filter step, we are left with few target gene options. In this we have to select each 
+  target seq and paste it to SnapGene viewer to see if it is there or not.
+- The filtered results gave me only two target sequences - TTGATTGAGCATGCAAACCCTGG and TTCAACGATTACAGAGGCAGTGG
+
+Step 5 : Annotating in SnapGene viewer
+- Press Ctrl+F, which opens a dialogue box in bottom and there paste your copied target sequence (taken from
+  Excel), hit enter.
+- Now the target gene will be shown in the linear sequence
+- See the NGG and select it --> Features --> add feature (Ctrl+T)--> change the color --> rename it to PAM --> OK
+  This visually differentiate from other sequence. 
+- Select the remaining 20 bp in the target and follow above step, but rename it to Guide_cas9, also select the
+  direction arrow to showcase the working of cas9 enzyme.
+- This way you can also design gRNA for cas12a and cas12b which are of diagnostic importance. 
