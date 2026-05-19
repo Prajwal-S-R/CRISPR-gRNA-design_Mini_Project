@@ -113,10 +113,10 @@ Observe keenly your PAM for Cas9 (NGG) in the target. Here PAM is **'TGG'**, to 
 
 In feature, rename it to PAM and change the color, press ok.
 <img width="1840" height="887" alt="image-32" src="https://github.com/user-attachments/assets/4a0dd592-55fd-487e-8e89-1eccbfb5a882" />
-It features like this
+It features like this and here after designing guide, check for the homopolymers in seed region and also the GC content. 
 <img width="1702" height="472" alt="image-33" src="https://github.com/user-attachments/assets/e1675b6a-cc51-48c8-9162-b39e3df20a51" />
 
-Note: After designing guide, check for the homopolymers in seed region and also the GC content
+Note: In CRISPR guide design, homopolymers (stretches of 4 or more identical consecutive bases, e.g., AAAA or TTTT) in the seed region are bad. They frequently cause off-target cutting, reduce on-target editing efficiency, and introduce synthesis or sequencing errors.
 
 Likewise, select the remaining 20bp in target and add feature as Guide_1_Cas9.
 <img width="1822" height="967" alt="image-34" src="https://github.com/user-attachments/assets/d2e4975c-adf6-494a-80ad-dd4f43c4c591" />
