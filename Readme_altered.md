@@ -24,37 +24,37 @@ This section contains the procedural step one should follow to design gRNA.
 
 - Extract the zip file, open ncbi_dataset --> data and there rename the gene as mecA_gene.
 
-  ![alt text](image.png)
+  <img width="1230" height="362" alt="image" src="https://github.com/user-attachments/assets/67cad138-9bfe-43bb-b948-0a2834b5fbca" />
 
 #### Step 2 : Loading the mecA_gene to preinstalled SnapGene Viewer software
 - In 2 ways we can load the mecA_gene file into snapgene viewer.
 >i) By double clicking on the mecA_gene file, which will redirects to snapgene viewer.
 
 >ii) By right click on this file, select the option 'Edit in Notepad'. There select the gene sequence by dragging your mouse.
- ![alt text](image-2.png)
+<img width="1025" height="382" alt="image-2" src="https://github.com/user-attachments/assets/36a6637f-3816-4890-b87d-cb7b66095ac4" />
 
  - After copying the sequences, open SnapGene viewer software and click File --> Create New DNA file --> opens a dialogue box
- ![alt text](image-3.png) 
+<img width="865" height="747" alt="image-3" src="https://github.com/user-attachments/assets/e2126bc2-0341-4245-99cf-340fc98aecca" /> 
 
  - Paste the sequence in this box and press ok.
-![alt text](image-5.png)
+<img width="866" height="641" alt="image-5" src="https://github.com/user-attachments/assets/da9dd10a-357d-4f95-b346-ed9fcc6ee79a" />
 
 - It generates a map of mecA gene
-![alt text](image-6.png)
+<img width="1915" height="490" alt="image-6" src="https://github.com/user-attachments/assets/f60fa953-4f44-4ab6-a39a-83c6466de2c2" />
 
 - In the bottom there are many options like map, sequence, enzyme and so on. In that opt for 'Sequence'.
-![alt text](image-7.png) 
+<img width="1912" height="1077" alt="image-7" src="https://github.com/user-attachments/assets/21c396f1-c738-41ff-9811-d3cc6983b7d9" />
   
 - Select the complete sequence and copy it (Ctrl+C).
-![alt text](image-8.png)
+<img width="1812" height="947" alt="image-8" src="https://github.com/user-attachments/assets/36b1827a-2d81-4fbc-bb65-ec9c3a41e648" />
 
 #### Step 3 : Open CHOPCHOP in browser
-![alt text](image-9.png)
+<img width="1467" height="712" alt="image-9" src="https://github.com/user-attachments/assets/91ad08f5-2ded-4131-bf6b-775c45132713" />
 Below is the steps followed for the guide RNA for Cas9 enzyme.
 > i) Loading the sequence to CHOPCHOP interface
 >> - After opening the CHOPCHOP, click on the menu 'paste target' which will changes to Gene target. 
   Now paste your copied sequence (from snapgene) into the 'target' box.
-  ![alt text](image-10.png)
+  <img width="1476" height="632" alt="image-10" src="https://github.com/user-attachments/assets/0007a3bf-bcb3-413e-9d5f-3f44b5364b03" />
  >> - Then next to the target box there is 'In' box, type your selected organism name (*Streptococcus pyogenes*). For 'Using' box click on CRISPR/Cas9, then for last box ('For') select activation.
   ![alt text](image-11.png)
  >> - Now select the 'Options', 
