@@ -89,8 +89,7 @@ Below is the steps followed for the guide RNA for Cas9 enzyme.
 <img width="1090" height="732" alt="image-23" src="https://github.com/user-attachments/assets/bdedd53b-f229-4709-b469-b0d87a169ff1" />
 
  >b) Efficiency = >50 % 
- ![alt text](image-24.png)
-
+<img width="1151" height="652" alt="image-24" src="https://github.com/user-attachments/assets/70351cc1-dc58-491f-b0df-6793af6f5d40" />
 
 >c) Self-complementary = 0
 <img width="1101" height="627" alt="image-25" src="https://github.com/user-attachments/assets/8e29292e-44bc-4335-b495-e835f9194fbb" />
