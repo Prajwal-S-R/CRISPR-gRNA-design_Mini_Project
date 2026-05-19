@@ -18,11 +18,9 @@ This section contains the procedural step one should follow to design gRNA.
 - I selected [mecA](https://www.ncbi.nlm.nih.gov/gene/69900206) from *Streptococcus pyogenes* with Gene ID: 69900206
 - Download the Gene sequence in FASTA format by selecting the menu download datasets and 
   mark the Gene sequence (FASTA), then download the file named mecA_datasets.zip.
-
  <img width="1842" height="927" alt="1" src="https://github.com/user-attachments/assets/c8d0eee5-853c-4e65-b3cc-61ad27e8a971" />
 
 - Extract the zip file, open ncbi_dataset --> data and there rename the gene as mecA_gene.
-
   <img width="1230" height="362" alt="image" src="https://github.com/user-attachments/assets/67cad138-9bfe-43bb-b948-0a2834b5fbca" />
 
 #### Step 2 : Loading the mecA_gene to preinstalled SnapGene Viewer software
@@ -110,13 +108,15 @@ Paste it here by pressing Ctrl+V. Then press next.
 The software will locate your target sequence like this below as highlighted (green).
 <img width="1812" height="922" alt="image-29" src="https://github.com/user-attachments/assets/dba10396-0c7f-4a00-b27f-365c2e01f306" />
 
-Observe keenly your PAM for Cas9 (NGG) in the target. Here PAM is 'TGG', to visualise differentiate it, add a feature named as PAM. For this select the PAM sequence and then go to Features --> Add feature 
+Observe keenly your PAM for Cas9 (NGG) in the target. Here PAM is **'TGG'**, to visualise differentiate it, add a feature named as PAM. For this select the PAM sequence and then go to Features --> Add feature 
 <img width="1740" height="977" alt="image-31" src="https://github.com/user-attachments/assets/d4db7998-e32b-415f-a8a4-d5184bb9315d" />
 
 In feature, rename it to PAM and change the color, press ok.
 <img width="1840" height="887" alt="image-32" src="https://github.com/user-attachments/assets/4a0dd592-55fd-487e-8e89-1eccbfb5a882" />
 It features like this
 <img width="1702" height="472" alt="image-33" src="https://github.com/user-attachments/assets/e1675b6a-cc51-48c8-9162-b39e3df20a51" />
+
+Note: After designing guide, check for the homopolymers in seed region and also the GC content
 
 Likewise, select the remaining 20bp in target and add feature as Guide_1_Cas9.
 <img width="1822" height="967" alt="image-34" src="https://github.com/user-attachments/assets/d2e4975c-adf6-494a-80ad-dd4f43c4c591" />
@@ -126,5 +126,5 @@ After adding feature, PAM and guide looks like this in the sequence map.
 
 For the second target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like this.
 <img width="1857" height="792" alt="image-36" src="https://github.com/user-attachments/assets/e74f357b-0ed5-47ca-900a-4bc8cca9b54f" />
-In the above image, I have designed two guide sequences for cas9. In this way one can create guide RNA for CRISPR/Cas9. Further one can check if the sequences are conserved or not by using tools like jalview, geneious prime.
+In the above image, I have designed two guide sequences for cas9. In this way one can create guide RNA for CRISPR/Cas9. Further one can check if the sequences are conserved or not by doing BLAST of the target sequence and finalise using tools like jalview, geneious prime.
 
