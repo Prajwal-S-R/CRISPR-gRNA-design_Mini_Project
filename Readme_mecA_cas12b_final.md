@@ -20,6 +20,7 @@ This section contains the procedural step one should follow to design gRNA.
  <img width="1842" height="927" alt="1" src="https://github.com/user-attachments/assets/c8d0eee5-853c-4e65-b3cc-61ad27e8a971" />
 
 - Extract the zip file, open ncbi_dataset --> data and there rename the gene as mecA_gene.
+
   <img width="1230" height="362" alt="image" src="https://github.com/user-attachments/assets/67cad138-9bfe-43bb-b948-0a2834b5
 
 #### Step 2 : Loading the mecA_gene to preinstalled SnapGene Viewer software
