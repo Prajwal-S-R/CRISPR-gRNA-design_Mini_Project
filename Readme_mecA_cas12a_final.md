@@ -1,7 +1,7 @@
 ## CRISPR guide RNA design for Cas12a
 Cas12a (formerly Cpf1) and Cas12b (formerly C2c1) are RNA-guided endonucleases in the Type V CRISPR-Cas system. Both serve as highly specific molecular scissors that bind to Thymine-rich (T-rich) PAM sites instead of the G-rich PAMs targeted by Cas9, and both cleave double-stranded DNA to create staggered, 4-5 base pair overhangs.
 In this section, we will see how to design guide for Cas12a which is diagnostically important like that of Cas12b and both are extensively used as diagnostic tool in India for CRISPR/cas system for therapy in healthcare.
- 
+
 ### Acknowledgements
 
  - [NCBI ](https://www.ncbi.nlm.nih.gov/)
