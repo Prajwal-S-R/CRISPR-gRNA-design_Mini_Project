@@ -28,7 +28,7 @@ Step 3 : Open CHOPCHOP in browser
 - Roadmap : 
   Browser -> CHOPCHOP -> Paste -> target -> Target -> In -> Using -> For -> Options --> Find Target Sites!
 
-(ii) Analysing the Result
+(ii) Analysing the Result;
 - The CHOPCHOP will gives many target sequences in the form of table having rank, genomic location, strand, 
   GC content, efficiecny, self complementary,  mismatches (MM0, MM1, MM2) and a visual map at the top. 
 - Now you have to click on dropdown named as 'Please select one' (Download results). 
