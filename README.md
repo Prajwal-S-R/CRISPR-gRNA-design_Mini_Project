@@ -98,3 +98,32 @@ After filtering above parameters, the result has only two target sequences -    
 <img width="1277" height="227" alt="image-26" src="https://github.com/user-attachments/assets/90ca0cec-faf4-46ef-b81d-4a6b9da77a20" />
 Now we have to copy the target sequence and find in the SnapGene viewer for the position and orientation.
 
+#### Step 5 : Higlighting the Guide 
+ I have copied the first target sequence (TTGATTGAGCATGCAAACCCTGG) from the above result excel sheet. Then go to SnapGene viewer software, press Ctrl+F --> opens dialogue box in the bottom of the page.
+ <img width="1707" height="947" alt="image-27" src="https://github.com/user-attachments/assets/9a56fc3e-9146-4da0-b7dd-6a5909efefd8" />
+
+Paste it here by pressing Ctrl+V. Then press next.
+<img width="1917" height="318" alt="image-28" src="https://github.com/user-attachments/assets/87b37941-6d09-46b4-abcb-88c7919de3e5" />
+
+The software will locate your target sequence like this below as highlighted (green).
+<img width="1812" height="922" alt="image-29" src="https://github.com/user-attachments/assets/dba10396-0c7f-4a00-b27f-365c2e01f306" />
+
+Observe keenly your PAM for Cas9 (NGG) in the target. Here PAM is **'TGG'**, to visualise differentiate it, add a feature named as PAM. For this select the PAM sequence and then go to Features --> Add feature 
+<img width="1740" height="977" alt="image-31" src="https://github.com/user-attachments/assets/d4db7998-e32b-415f-a8a4-d5184bb9315d" />
+
+In feature, rename it to PAM and change the color, press ok.
+<img width="1840" height="887" alt="image-32" src="https://github.com/user-attachments/assets/4a0dd592-55fd-487e-8e89-1eccbfb5a882" />
+It features like this and here after designing guide, check for the homopolymers in seed region and also the GC content. 
+<img width="1702" height="472" alt="image-33" src="https://github.com/user-attachments/assets/e1675b6a-cc51-48c8-9162-b39e3df20a51" />
+
+Note: In CRISPR guide design, homopolymers (stretches of 4 or more identical consecutive bases, e.g., AAAA or TTTT) in the seed region are bad. They frequently cause off-target cutting, reduce on-target editing efficiency, and introduce synthesis or sequencing errors.
+
+Likewise, select the remaining 20bp in target and add feature as Guide_1_Cas9.
+<img width="1822" height="967" alt="image-34" src="https://github.com/user-attachments/assets/d2e4975c-adf6-494a-80ad-dd4f43c4c591" />
+
+After adding feature, PAM and guide looks like this in the sequence map. 
+<img width="1632" height="747" alt="image-35" src="https://github.com/user-attachments/assets/317742b4-dee7-45ce-b7fb-21ff6b2c94e5" />
+
+For the second target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like this.
+<img width="1857" height="792" alt="image-36" src="https://github.com/user-attachments/assets/e74f357b-0ed5-47ca-900a-4bc8cca9b54f" />
+In the above image, I have designed two guide sequences for cas9 (Check report folder for .dna file of this). In this way one can create guide RNA for CRISPR/Cas9. Further one can check if the sequences are conserved or not by doing BLAST of the target sequence and finalise using tools like jalview, geneious prime.
