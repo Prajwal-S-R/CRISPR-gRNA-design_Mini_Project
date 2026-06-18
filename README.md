@@ -127,3 +127,5 @@ After adding feature, PAM and guide looks like this in the sequence map.
 For the second target sequence, follow the above steps (Step 5) sequentially. Doing this will leads to appear like this.
 <img width="1857" height="792" alt="image-36" src="https://github.com/user-attachments/assets/e74f357b-0ed5-47ca-900a-4bc8cca9b54f" />
 In the above image, I have designed two guide sequences for cas9 (Check report folder for .dna file of this). In this way one can create guide RNA for CRISPR/Cas9. Further one can check if the sequences are conserved or not by doing BLAST of the target sequence and finalise using tools like jalview, geneious prime.
+
+In the same way as explained above, you can perform for cas12a and cas12b. Post designing one should check the quality by analysing the sequences.
