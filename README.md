@@ -75,4 +75,26 @@ Below is the steps followed for the guide RNA for Cas9 enzyme.
 <img width="1625" height="996" alt="image-17" src="https://github.com/user-attachments/assets/8513083f-e18f-46ff-9b3d-ba8dcd576d1a" />
  Paste it into a new microsoft Excel sheet.
 <img width="1236" height="777" alt="image-18" src="https://github.com/user-attachments/assets/6b35334f-c493-4ce1-bfc4-7476b2096ac8" />
-  
+#### Step 4 : Analysing the result by filtering
+ Paste the .tsv file by pressing Ctrl+V into one cell. Now click on first row and select Filter options in the 'Sort & filter' (Editing ribbon of Home tab).
+<img width="1917" height="630" alt="image-20" src="https://github.com/user-attachments/assets/2ed28c6f-1a3c-4610-8ff2-8e76f229c272" />
+ Observe the tiny dropdown menu after the names of first row.
+ <img width="1917" height="542" alt="image-21" src="https://github.com/user-attachments/assets/a045b54e-f02e-4bda-a056-8bdf9d9ac68a" />
+ Now click on the tiny dropdown, it will pop up certain tick box and there optimise the values. 
+- We usually set following parameters which has already been standardized by scientist and industrial peoples.
+>a) GC content = 40 - 60%
+<img width="1090" height="732" alt="image-23" src="https://github.com/user-attachments/assets/bdedd53b-f229-4709-b469-b0d87a169ff1" />
+
+ >b) Efficiency = >50 % 
+<img width="1151" height="652" alt="image-24" src="https://github.com/user-attachments/assets/70351cc1-dc58-491f-b0df-6793af6f5d40" />
+
+>c) Self-complementary = 0
+<img width="1101" height="627" alt="image-25" src="https://github.com/user-attachments/assets/8e29292e-44bc-4335-b495-e835f9194fbb" />
+
+>d) Mismatches (MM0 = 1, MM1, MM2, MM3 = 0)
+
+After filtering above parameters, the result has only two target sequences -           TTGATTGAGCATGCAAACCCTGG and TTCAACGATTACAGAGGCAGTGG
+
+<img width="1277" height="227" alt="image-26" src="https://github.com/user-attachments/assets/90ca0cec-faf4-46ef-b81d-4a6b9da77a20" />
+Now we have to copy the target sequence and find in the SnapGene viewer for the position and orientation.
+
