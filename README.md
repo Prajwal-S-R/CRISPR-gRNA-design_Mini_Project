@@ -42,4 +42,37 @@ This section contains the procedural step one should follow to design gRNA.
 <img width="1812" height="947" alt="image-8" src="https://github.com/user-attachments/assets/36b1827a-2d81-4fbc-bb65-ec9c3a41e648" />
 
 - Extract the zip file, open ncbi_dataset --> data and there rename the gene as mecA_gene.
+
+  #### Step 3 : Open CHOPCHOP in browser
+<img width="1467" height="712" alt="image-9" src="https://github.com/user-attachments/assets/91ad08f5-2ded-4131-bf6b-775c45132713" />
+Below is the steps followed for the guide RNA for Cas9 enzyme.
+
+> i) Loading the sequence to CHOPCHOP interface
+>> - After opening the CHOPCHOP, click on the menu 'paste target' which will changes to Gene target. 
+  Now paste your copied sequence (from snapgene) into the 'target' box.
+  <img width="1476" height="632" alt="image-10" src="https://github.com/user-attachments/assets/0007a3bf-bcb3-413e-9d5f-3f44b5364b03" />
+
+ >> - Then next to the target box there is 'In' box, type your selected organism name (*Streptococcus pyogenes*). For 'Using' box click on CRISPR/Cas9, then for last box ('For') select activation.
+  <img width="1465" height="702" alt="image-11" src="https://github.com/user-attachments/assets/93d45f2f-2f6c-4dbf-9acb-bf94aba0926c" />
+
+ >> - Now select the 'Options', 
+  in that select Cas9 and also check for PAM3 sequence as NGG and also the sgRNA length to 20bp, 
+  apart from this leave other features as default. Finally click on Find Target Sites!
+  <img width="1465" height="702" alt="image-12" src="https://github.com/user-attachments/assets/cd81e878-0dfb-4ec9-806f-4d8a0166f682" />
+  <img width="803" height="890" alt="image-13" src="https://github.com/user-attachments/assets/b5b1aefd-5078-4da6-b8d3-332b1fb2f1a3" />
+  After this step, leave it to process and find your target.
+  <img width="1346" height="522" alt="image-14" src="https://github.com/user-attachments/assets/a3fcd2e0-16eb-4efa-8f69-f6a3fcab8073" />
+ 
+ > Way : Browser -> CHOPCHOP -> Paste target -> Target (Paste your copied sequence) -> In -> Using -> For -> Options --> Find Target Sites!
+
+ > ii) Loading the result table into Excel 
+ >> The CHOPCHOP will gives many target sequences in the form of table having rank, genomic location, strand, GC content, efficiecny, self complementary,  mismatches (MM0, MM1, MM2, MM3) and a visual map at the top.
+<img width="1886" height="872" alt="image-16" src="https://github.com/user-attachments/assets/c6ef2ad5-55af-474a-b072-e0b02e3dd402" />
+ Now you have to click on dropdown named as 'Please select one' (Download results). 
+  In that opt for "Results table as .tsv" , it will downloads the result.
+<img width="1856" height="975" alt="image-15" src="https://github.com/user-attachments/assets/a8a65c51-cecf-4ac2-a698-c57747ca0554" />
+ After downloading, right click on result file and select 'edit in notepad', copy the whole table content by pressing Ctrl+A --> Ctrl+C.
+<img width="1625" height="996" alt="image-17" src="https://github.com/user-attachments/assets/8513083f-e18f-46ff-9b3d-ba8dcd576d1a" />
+ Paste it into a new microsoft Excel sheet.
+<img width="1236" height="777" alt="image-18" src="https://github.com/user-attachments/assets/6b35334f-c493-4ce1-bfc4-7476b2096ac8" />
   
