@@ -4,7 +4,7 @@ In this mini project on designing a guide RNA for CRISPR/Cas, we will know to do
 
 ### Acknowledgements
 
- - [NCBI ](https://www.ncbi.nlm.nih.gov/)
+ - [NCBI](https://www.ncbi.nlm.nih.gov/)
  - [SnapGene Viewer](https://snapgene-viewer.software.informer.com/4.1/)
  - [CHOPCHOP](https://chopchop.cbu.uib.no/)
 
