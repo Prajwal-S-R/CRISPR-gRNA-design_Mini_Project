@@ -3,7 +3,7 @@
 Step 1 : Selecting the suitable gene from NCBI database
 - I have chosen the AMR gene mecA, which is responsible for the methicillin resistance. 
 - I selected mecA from Streptococcus pyogenes with Gene ID: 69900206
-- Download the Gene sequence in FASTA format by selecting the menu download datasets and 
+- Download the Gene sequence in FASTA format by selecting the menu download datasets and the
   mark the Gene sequence (FASTA), then download the file named mecA_datasets.zip.
 - Extract the file and rename the gene as mecA_gene. 
 
