@@ -11,7 +11,7 @@ In this section, we will see how to design guide for Cas12a which is the diagnos
 
 ### Documentation
 
-This section contains the procedural step one should follow to design gRNA.
+This section contains procedural step one should follow to design gRNA.
 
 #### Step 1 : Selecting the suitable gene from NCBI database
 - I have chosen the AMR gene mecA which is a bacterial gene that confers resistance to methicillin, penicillin, and other beta-lactam antibiotics by encoding the protein PBP2a (penicillin-binding protein 2A) which is responsible for the methicillin resistance. 
