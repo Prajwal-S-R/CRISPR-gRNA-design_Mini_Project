@@ -9,7 +9,7 @@ In this mini project on designing a guide RNA for CRISPR/Cas, we will know to do
  - [CHOPCHOP](https://chopchop.cbu.uib.no/)
 
 
-### Documentatio
+### Documentation
 
 This section contains the procedural step one should follow to design gRNA.
 
