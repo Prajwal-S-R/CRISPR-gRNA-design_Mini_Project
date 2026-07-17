@@ -1,6 +1,6 @@
 ### CRISPR Guide RNA Design
 
-In this mini project on designing a guide RNA for CRISPR/Cas, we will know to download the gene from NCBI and load it to SnapGene viewer for gene map and sequence study. Then using CHOPCHOP we check the target sequence in our selected gene for the study and via excel sheet we filter those sequences and finally annotate that sed sequences in the SnapGene viewer by naming PAM and guide for specific Cas enzyme. 
+In this mini project on designing a guide RNA for CRISPR/Cas, we will know to download the gene from NCBI and load it to SnapGene viewer for gene map and sequence study. Then using CHOPCHOP we check the target sequence in our selected gene for the study and via excel sheet we filter those sequences and finally annotate that seled sequences in the SnapGene viewer by naming PAM and guide for specific Cas enzyme. 
 
 ### Acknowledgements
 
