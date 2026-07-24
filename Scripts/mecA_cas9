@@ -45,7 +45,7 @@ Step 4 : Filtering in Excel
 - We usually set following parameters which has already been standardized by scientist and industrial peoples.
   a) Efficiency - >50 % 
   b) Self complementary - 0
-  c) GC content - 40 - 60% consistent and work hard
+  c) GC content - 40 - 60% 
   d) Mismatches
 - After doing this filter step, we are left with few target gene options. In this we have to select each 
   target seq and paste it to SnapGene viewer to see if it is there or not.
